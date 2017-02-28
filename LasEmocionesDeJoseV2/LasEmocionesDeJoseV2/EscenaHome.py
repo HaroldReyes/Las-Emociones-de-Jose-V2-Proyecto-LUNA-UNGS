@@ -6,8 +6,7 @@ class EscenaHome(ClassScene):
     def on_event(self):
         pass 
 
-    def on_update(self):
- asjdasdasd
+    def on_update(self): 
         pass
  
     def on_draw(self, screen):
