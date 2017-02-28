@@ -1,11 +1,10 @@
 import pygame
-import Home  
-import Director
+import EscenaHome  
+import ClassDirector
 
 def main():
-    
-    dir = Director.Director()
-    scene = Home.Home(dir)
+    dir = ClassDirector.ClassDirector()
+    scene = EscenaHome.EscenaHome(dir)
     dir.change_scene(scene)
     dir.loop()
  

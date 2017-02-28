@@ -22,16 +22,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Home.py">
+    <Compile Include="Config.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Director.py">
+    <Compile Include="EscenaHome.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Escena.py">
+    <Compile Include="ClassDirector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClassEscena.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LasEmocionesDeJoseV2.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagenes\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

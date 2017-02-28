@@ -1,4 +1,4 @@
-class Scene: 
+class ClassScene: 
     def __init__(self, director):
         self.director = director
  
