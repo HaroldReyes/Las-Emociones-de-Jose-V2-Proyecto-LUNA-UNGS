@@ -20,7 +20,7 @@ class ClassDirector:
         
         self.scene = None
         self.quit_flag = False
-        self.clock = pygame.time.g.Clock() 
+        self.clock = pygame.time.Clock() 
     #============================================================
     #Loop principal
     #============================================================     
