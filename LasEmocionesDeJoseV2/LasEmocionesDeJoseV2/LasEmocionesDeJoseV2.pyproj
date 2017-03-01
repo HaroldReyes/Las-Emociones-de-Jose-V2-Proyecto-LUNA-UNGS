@@ -34,10 +34,23 @@
     <Compile Include="ClassEscena.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Helpers_Functions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers_Unknown.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper_GIFImage.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LasEmocionesDeJoseV2.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Imagenes\" />
+    <Folder Include="Gif\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gif\Moon.gif" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
